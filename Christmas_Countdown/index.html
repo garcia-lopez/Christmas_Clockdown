@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Christmas Clockdown</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="icon" type="image/x-icon" href="images/copo-de-nieve.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
       <div class="main_landing"> 
         <div class="snowflakes"></div>
-        <h1>Christmas Clockdown</h1>
+        <h1 id="title">Christmas Clockdown</h1>
         <div class="wrap">
-          <div class="clock">
+          <div class="clock" id="clock">
             <p>Months <span id="months">05</span></p>
             <p >Days <span id="days">25</span></p>
             <p >Hours <span id="hours">12</span></p>
@@ -28,17 +26,14 @@
           </div>
         </div>
         <div class="mobile_wrap">
-            <p>Months <span id="mobile_months">05</span></p>
-            <p >Days <span id="mobile_days">25</span></p>
-            <p >Hours <span id="mobile_hours">12</span></p>
-            <p>Minutes <span id="mobile_minutes">30</span></p>
-            <p>Seconds <span id="mobile_seconds">20</span></p> 
+            <p>Months: <span id="mobile_months">05</span></p>
+            <p >Days: <span id="mobile_days">25</span></p>
+            <p >Hours: <span id="mobile_hours">12</span></p>
+            <p>Minutes: <span id="mobile_minutes">30</span></p>
+            <p>Seconds: <span id="mobile_seconds">20</span></p> 
          </div>
-
-
       </div>
-     
     </main>
-   
 </body>
+  <script src="js/script.js"></script>
 </html>
