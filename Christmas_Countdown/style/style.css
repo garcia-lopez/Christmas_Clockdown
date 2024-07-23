@@ -98,7 +98,7 @@ span {
     }
 }
 
-/*Media querys*/
+/*Media queries*/
 
 @media only screen and (min-width: 600px) {
   .mobile_wrap {
